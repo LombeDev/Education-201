@@ -1,7 +1,6 @@
 #map {
-  margin: 0 auto;
-  display: block;
-  width: 600px; /* You can adjust the width to suit your needs. */
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
