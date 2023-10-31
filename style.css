@@ -1,4 +1,13 @@
 #map {
+
+height: 500px;
+
+width: 100%;
+
+}
+
+
+#map {
   margin-left: 0;
   margin-right: 0;
 }
