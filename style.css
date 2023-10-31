@@ -1,3 +1,26 @@
+/* Center content on desktop */
+.container {
+  margin: 0 auto;
+}
+
+/* Center map on desktop */
+#map {
+  margin: 0 auto;
+}
+
+/* Center content on mobile */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+
+  /* Center map on mobile */
+  #map {
+    width: 100%;
+  }
+}
+
+
 #map {
 
 height: 500px;
