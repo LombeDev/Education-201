@@ -1,29 +1,8 @@
-@media (max-width: 768px) {
-  .form {
-    width: 300px;
-    margin: calc(50vh - 200px) auto;
-  }
 
-  h2 {
-    width: 160px;
-  }
-
-  div {
-    width: 280px;
-  }
-}
-
-@media (max-width: 768px) {
-  .form input,
-  .form h2,
-  .form div {
-    font-size: 16px;
-  }
-}
 
 
 body{
-    background:#9966cc;
+    background:#;
     margin:0
 }
 .form{
