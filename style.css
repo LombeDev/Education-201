@@ -1,3 +1,32 @@
+.contact-section {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  width: 100%;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-section form input[type=submit] {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
 /* Center content on desktop */
 .container {
   margin: 0 auto;
