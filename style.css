@@ -31,6 +31,10 @@
   placeholder-color: #a9a9a9;
 }
 
+.contact-section form textarea {
+  height: 200px;
+}
+
 .contact-section form input[type=submit] {
   width: 100px;
   height: 30px;
@@ -41,7 +45,9 @@
   cursor: pointer;
   font-family: sans-serif;
   border-radius: 4px;
+  text-align: center;
 }
+
 
 
 
