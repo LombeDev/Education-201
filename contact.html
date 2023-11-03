@@ -9,16 +9,65 @@
     <title>Contact form</title>
 </head>
 <body>
-    <form action="https://formspree.io/f/mayzvqaz" method="POST" class="form">
-        <h2>CONTACT US</h2>
-        <p type="Name:"><input name="name" placeholder="Write your name here.."></input></p>
-        <p type="Email:"><input name="email" placeholder="Let us know how to contact you back.."></input></p>
-        <p type="Message:"><input name="message" placeholder="What would you like to tell us.."></input></p>
-        <button type="submit">Send Message</button>
-        <div>
-          <span class="fa fa-phone"></span>001 1023 567
-          <span class="fa fa-envelope-o"></span> contact@company.com
-        </div>
-      </form>
+  <style>
+    .form {
+      width: 500px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    .form h2 {
+      font-size: 24px;
+      margin: 0 0 20px 0;
+    }
+
+    .form p {
+      margin: 0 0 10px 0;
+    }
+
+    .form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .form button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+
+    .form .fa {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    .form .fa-phone {
+      color: #000;
+    }
+
+    .form .fa-envelope-o {
+      color: #00f;
+    }
+  </style>
+  <form action="https://formspree.io/f/mayzvqaz" method="POST" class="form">
+    <h2>CONTACT US</h2>
+    <p>Name:</p>
+    <input name="name" placeholder="Write your name here.." />
+    <p>Email:</p>
+    <input name="email" placeholder="Let us know how to contact you back.." />
+    <p>Message:</p>
+    <input name="message" placeholder="What would you like to tell us.." />
+    <button type="submit">Send Message</button>
+    <div>
+      <span class="fa fa-phone"></span>001 1023 567
+      <span class="fa fa-envelope-o"></span> contact@company.com
+    </div>
+  </form>
+
 </body>
 </html>
