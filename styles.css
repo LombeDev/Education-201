@@ -3,8 +3,10 @@ body {
     background-color: #f4f4f4;
 }
 
+
+
 .contact-form {
-    max-width: 120%;
+    width: auto;
     margin: 0 auto;
     background-color: #f4f4f4;
     padding: 20px;
