@@ -10,50 +10,60 @@
 </head>
 <body>
   <style>
-    .form {
-      width: 100%;
-      height: 450%;
-      margin: 0 auto;
-      border: 1px solid #ccc;
-      padding: 20px;
-    }
+.form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
 
-    .form h2 {
-      font-size: 24px;
-      margin: 0 0 20px 0;
-    }
+.form h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 
-    .form p {
-      margin: 0 0 10px 0;
-    }
+.form p {
+  margin-bottom: 10px;
+}
 
-    .form input {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-    }
+.form input,
+.form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
 
-    .form button {
-      background-color: #000;
-      color: #fff;
-      padding: 10px 20px;
-      border: 1px solid #000;
-      cursor: pointer;
-    }
+.form input:focus,
+.form button:focus {
+  border-color: #000;
+  outline: none;
+}
 
-    .form .fa {
-      font-size: 20px;
-      margin-right: 10px;
-    }
+.form button {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
 
-    .form .fa-phone {
-      color: #000;
-    }
+.form .fa {
+  font-size: 16px;
+  margin-right: 10px;
+}
 
-    .form .fa-envelope-o {
-      color: #00f;
-    }
+.form .fa-phone {
+  color: #000;
+}
+
+.form .fa-envelope-o {
+  color: #00f;
+}
+      
+
+    
   </style>
   <form action="https://formspree.io/f/mayzvqaz" method="POST" class="form">
     <h2>CONTACT US</h2>
