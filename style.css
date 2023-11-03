@@ -35,7 +35,7 @@
   height: 200px;
 }
 
-.contact-section form input[type=submit] {
+.contact-section form input[type="submit"] {
   width: 100px;
   height: 30px;
   font-size: 14px;
@@ -46,6 +46,8 @@
   font-family: sans-serif;
   border-radius: 4px;
   text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
 }
 
 
