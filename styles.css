@@ -5,12 +5,10 @@ body {
 
 
 .map-container {
-  width: 900px;
   border: none;
   border-radius: 10px;
   position: auto;
-  padding: 20px;
-  height: 450px;
+  padding: 5px;
   margin: 0 auto;
   
 }
