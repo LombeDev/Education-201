@@ -62,8 +62,8 @@ width: 100%;
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("icomoon.eot?srf3rx");
+  src: url("icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("icomoon.ttf?srf3rx") format("truetype"), url("icomoon.woff?srf3rx") format("woff"), url("icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -77,7 +77,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
-  color: #274D82;
+  color: #191919;
   background: #f4f4f4;
 }
 
