@@ -53,7 +53,21 @@
 	<!--[if lt IE 9]>
 	<script src="respond.min.js"></script>
 	<![endif]-->
+<style>
+  .flexslider .slides li {
+    animation: slide-right-to-left 10s linear infinite;
+  }
 
+  @keyframes slide-right-to-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+</style>
+		
 	</head>
 	<body>
 		
